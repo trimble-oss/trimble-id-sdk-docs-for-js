@@ -6,10 +6,11 @@ Trimble Identity SDK developer documentation for JavaScript/ TypeScript.
 
 ## Documentation
 
-- [developer guide](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/docs/DeveloperGuide.md) - Our Dev guide to work with various authentication grant types and its providers.
-- [Samples](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/samples) - a code guided samples for various supporeted grant type token providers.
+- [Developer guide](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/docs/DeveloperGuide.md) - Our Dev guide to work with various authentication grant types and its providers.
+- [Reference documentation](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/reference-guide) - Our code reference documentation for various grant token providers from code comments.
+- [Samples](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/samples) - a code guided samples for all supporeted grant type token providers.
 - [FAQs](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/docs/FAQ.md) - frequently asked questions answering the most common questions.
-- [Release Notes](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/release-notes) - release notes about trimble-id SDK.
+- [Release Notes](https://github.com/trimble-oss/trimble-id-sdk-docs-for-js/blob/main/release-notes/CHANGELOG.md) - release notes about trimble-id SDK.
 
 ## Getting Started
 
