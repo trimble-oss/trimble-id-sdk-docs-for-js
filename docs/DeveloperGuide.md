@@ -203,32 +203,6 @@ tokenProvider.retrieveToken()
 
 ```
 
-trimble-id.ImplicitGrantTokenProvider
-======
-In the Implicit Grant flow, Application gets an access token directly without an intermediate code exchange step.
-## Usage
-```ts
-import {ImplicitGrantTokenProvider} from '@trimble-oss/trimble-id';
-var endpointProvider = new OpenIdEndpointProvider(WELL_KNOWN_ENDPOINT);
-var tokenProvider = new ImplicitGrantTokenProvider(endpointProvider, CONSUMER_KEY, REDIRECT_URL);
-if (window.location.hash && window.location.hash.includes('access_token='))
-    tokenProvider.decodeHash(window.location.hash)
-        .then(() => {
-            tokenProvider.retrieveToken()
-                .then((token) => {})
-                .catch(() => {});
-        })
-        .catch(() => {});    
-else
-    tokenProvider.getOAuthRedirect('state')
-        .then((redirect) => { window.location.replace(redirect); })
-        .catch(() => {})
-```
-```
-NOTE: If you are currently using an Implicit Grant flow, please use the Authorization Code with PKCE flow.
-
-```
-
 trimble-id.FixedTokenProvider
 ======
 FixedTokenProvider helps to return the fixed tokens.
