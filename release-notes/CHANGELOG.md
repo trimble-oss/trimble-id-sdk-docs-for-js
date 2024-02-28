@@ -1,4 +1,4 @@
-## 0.0.3 (2024-02-28)
+# 0.0.3 (2024-02-28)
 
 * Security vulnerability fixes
 * Improved Analytics tracking with inclusion of application id all type of events
