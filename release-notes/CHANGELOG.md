@@ -1,3 +1,8 @@
+## 0.0.3 (2024-02-28)
+
+* Security vulnerability fixes
+* Improved Analytics tracking with inclusion of application id all type of events
+
 # 0.0.2 (2024-01-08)
 
 CORS issue fix, Axios vulnerability fix and some improvements on capturing analytics events
