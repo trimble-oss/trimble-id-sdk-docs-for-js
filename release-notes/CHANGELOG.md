@@ -1,3 +1,8 @@
+# 0.0.4 (2024-04-29)
+
+* Resolved issue with token refresh mechanism to properly handle scope
+* Eliminated TypeScript warnings that contain some uncompiled .ts files for the interfaces.
+
 # 0.0.3 (2024-02-28)
 
 * Security vulnerability fixes
