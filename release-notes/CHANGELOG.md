@@ -1,3 +1,8 @@
+# 0.0.5 (2024-05-30)
+
+* Added SimpleHttpClientProvider to make API calls
+* Fixed the type declaration for function types
+
 # 0.0.4 (2024-04-29)
 
 * Resolved issue with token refresh mechanism to properly handle scope
