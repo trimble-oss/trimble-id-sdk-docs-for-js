@@ -241,7 +241,18 @@ httpClientProvider.RetrieveClient()
     .catch(() => {});
 ```
 
-
+trimble-id.SimpleHttpClientProvider
+======
+Http client provider for API
+## Usage
+```ts
+import {SimpleHttpClientProvider} from '@trimble-oss/trimble-id';
+var tokenProvider = new ClientCredentialTokenProvider(endpointProvider, CONSUMER_KEY, CONSUMER_SECRET).WithScopes([REQUESTED_SCOPE]);
+var httpClientProvider = new SimpleHttpClientProvider();
+httpClientProvider.RetrieveClient()
+    .then((httpClient) => {})
+    .catch(() => {});
+```
 ## <a name="faq">FAQ</a> ##
 
 Do you have questions? Do not worry, we have prepared a complete [FAQ](./FAQ.md) answering the most common questions.
