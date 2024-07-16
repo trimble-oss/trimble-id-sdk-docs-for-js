@@ -1,3 +1,7 @@
+# 0.0.6 (2024-07-16)
+
+* Type declaration added as an interface for HttpClient providers, therefore any API service client will utilize this type for service creation
+
 # 0.0.5 (2024-05-30)
 
 * Added SimpleHttpClientProvider to make API calls
