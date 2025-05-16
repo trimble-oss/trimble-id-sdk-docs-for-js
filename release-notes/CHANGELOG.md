@@ -1,3 +1,7 @@
+## 0.0.7 (2025-02-25)
+
+* Fixed the compatibility issue for webpack bundling
+
 # 0.0.6 (2024-07-16)
 
 * Type declaration added as an interface for HttpClient providers, therefore any API service client will utilize this type for service creation
