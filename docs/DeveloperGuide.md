@@ -20,7 +20,7 @@ trimble-id is core helper library containing primitives and basic interaction wi
 
 ## <a name="identity">Authentication with Trimble Identity</a> ##
 
-To utilize TID authentication, the calling app must be registered with Trimble Identity. You can conveniently handle the application registration process on [Trimble Developer Console](https://developer.console.trimble.com)
+To utilize TID authentication, the calling app must be registered with Trimble Identity. You can conveniently handle the application registration process on [Trimble Developer Console](https://console.trimble.com/)
 
 ## <a name="configure-endpoint">Configure the endpoint</a> ##
 
