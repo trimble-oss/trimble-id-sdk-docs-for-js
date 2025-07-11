@@ -1,3 +1,8 @@
+## 0.0.8 (2025-07-04)
+
+* Improved custom header support
+* Code quality improvements
+  
 ## 0.0.7 (2025-02-25)
 
 * Fixed the compatibility issue for webpack bundling
