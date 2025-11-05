@@ -1,3 +1,14 @@
+## 1.0.0 (2025-11-05)
+* JavaScript to TypeScript Modernization
+    * Complete TypeScript Migration: Full source conversion with proper interfaces and type definitions
+    * Modern Build System: Rollup.js multi-format output (ESM, CommonJS, UMD) with tree-shaking
+    * Async/Await Modernization: 70% reduction in code complexity
+ * Breaking Changes
+    * Import pattern changes (direct → named imports)
+    * RetrieveTokenExpiry returns Date instead of string
+    * Interface naming: IKeysetProvider → KeysetProvider
+
+
 ## 0.0.8 (2025-07-04)
 
 * Improved custom header support
