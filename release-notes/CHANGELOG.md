@@ -1,5 +1,5 @@
 ## 1.0.0 (2025-11-05)
-* JavaScript to TypeScript Modernization
+* Modernization of modern modular type (ECMAScript 6 (ES6)
     * Complete TypeScript Migration: Full source conversion with proper interfaces and type definitions
     * Modern Build System: Rollup.js multi-format output (ESM, CommonJS, UMD) with tree-shaking
     * Async/Await Modernization: 70% reduction in code complexity
