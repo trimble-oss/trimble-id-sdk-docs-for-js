@@ -1,0 +1,18 @@
+# Each line is a file pattern followed by one or more owners.
+# Order matters — later rules take precedence.
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+*                           @trimble-oss/platform-sdk-maintainers
+
+# Developer guides and FAQs
+/docs/                      @trimble-oss/platform-sdk-maintainers
+
+# API reference documentation
+/reference-guide/           @trimble-oss/platform-sdk-maintainers
+
+# Release notes and changelog
+/release-notes/             @trimble-oss/platform-sdk-maintainers
+
+# Code samples
+/samples/                   @trimble-oss/platform-sdk-maintainers
