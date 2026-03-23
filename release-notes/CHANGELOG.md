@@ -1,3 +1,7 @@
+## 1.0.1 (2026-03-16)
+* Fix vulnerabilities reported by NPM
+* Bug fix related to the rollup config and resolving jsrsasign dependency 
+
 ## 1.0.0 (2025-11-05)
 * Modernization of modern modular type (ECMAScript 6 (ES6)
     * Complete TypeScript Migration: Full source conversion with proper interfaces and type definitions
