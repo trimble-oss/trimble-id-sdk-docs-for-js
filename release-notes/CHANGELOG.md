@@ -1,3 +1,6 @@
+## 1.0.2 (2026-05-21)
+* Fixed vulnerabilities
+
 ## 1.0.1 (2026-03-16)
 * Fix vulnerabilities reported by NPM
 * Bug fix related to the rollup config and resolving jsrsasign dependency 
