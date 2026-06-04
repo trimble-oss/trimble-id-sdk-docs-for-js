@@ -1,3 +1,6 @@
+## 1.0.3 (2026-06-03)
+* Fixed vulnerabilities
+
 ## 1.0.2 (2026-05-21)
 * Fixed vulnerabilities
 
